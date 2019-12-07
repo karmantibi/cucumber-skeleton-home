@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+project.ext {
+    cucumberVersion = '5.0.0-RC1'
+}
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:' + cucumberVersion
+    testImplementation 'io.cucumber:cucumber-junit:' + cucumberVersion
+    testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+}
+
+repositories {
+    mavenCentral()
+}

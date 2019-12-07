@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Belly" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-07T10:22:52" hostname="tkarman-PC" time="7.615">
+  <properties/>
+  <testcase name="a few cukes" classname="Belly" time="7.615"/>
+  <system-out><![CDATA[Feature: Belly
+
+  Scenario: a few cukes               ?[90m# io/cucumber/skeleton/belly.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI have ?[0m?[32m?[1m42?[0m?[32m cukes in my belly?[0m ?[90m# io.cucumber.skeleton.StepDefinitions.I_have_cukes_in_my_belly(int) in file:/C:/Users/tkarman/eclipse-workspace/cucumber-java-skeleton/build/classes/java/test/?[0m
+    ?[32mAnd ?[0m?[32mvadalma?[0m                       ?[90m# io.cucumber.skeleton.StepDefinitions.vadalma() in file:/C:/Users/tkarman/eclipse-workspace/cucumber-java-skeleton/build/classes/java/test/?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 38132
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+dec. 07, 2019 11:22:56 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
